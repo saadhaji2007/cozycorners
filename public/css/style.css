@@ -1,0 +1,45 @@
+body {
+    background-color: lightcoral;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-comapass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222;
+}
+
+/* Footer */
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+} 
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+f-info {
+    display: flex;
+    height: 8rem;
+}
+
+.show-img {
+    height: 30vh;
+}
+
+.btns {
+    display: flex;
+}
+
+.show-cards {
+    padding-left: 0;
+    padding-right: 0;
+}
