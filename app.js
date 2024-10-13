@@ -26,8 +26,8 @@ const reviewRouter = require("./routes/review.js");
 const userRouter = require("./routes/user.js");
 
 //Connecting to database
-const MONGO_URL = "mongodb://127.0.0.1:27017/cozycorners";
-// const dburl = process.env.ATLASDB_URL;
+// const MONGO_URL = "mongodb://127.0.0.1:27017/cozycorners";
+const dburl = process.env.ATLASDB_URL;
 
 //Calling main function 
 main().then(() => {
@@ -37,7 +37,7 @@ main().then(() => {
 });  
 
 async function main() {
-    await mongoose.connect("mongodb://127.0.0.1:27017/cozycorners"); 
+    await mongoose.connect("process.env.ATLASDB_URL"); 
 } 
 
 app.set("view engine", "ejs");
