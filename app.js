@@ -58,6 +58,7 @@ const sessionOptions = {
         maxAge: 7 * 24 * 60 * 60 * 1000,
         httpOnly: true,
     }
+    store: new session.MemoryStore()
 };
 
 //API 
