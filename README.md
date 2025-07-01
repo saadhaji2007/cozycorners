@@ -1,6 +1,6 @@
 # CozyCorners 🏡
 
-Welcome to **CozyCorners**, a full-stack web application developed over three months by **Saad Haji** using the MERN stack. This platform enables users to find, share, and review cozy listings with ease.
+Welcome to **CozyCorners**, a full-stack web application developed over three months using the MERN stack. This platform enables users to find, share, and review cozy listings with ease.
 
 ## 🏙️ Project Overview
 CozyCorners is a community-driven application where users can:
@@ -34,44 +34,43 @@ It’s a testament to three months of learning and implementing best practices a
 
 ---
 
-## 🎥 Demo & Screenshots
-> (Add your screenshots to a `/screenshots` folder and embed below)
+---
 
-```markdown
-![Home](./screenshots/home.png)
-![Listing Details](./screenshots/listing-detail.png)
-View the live demo: [Insert your deployment URL here]
+## 🚀 Getting Started
 
-🚀 Getting Started
-Clone & Install
-bash
-Copy
-Edit
+### Clone & Install
+
+```bash
 git clone https://github.com/saadhaji2007/cozycorners.git
 cd cozycorners
-Setup Environment
-In the project root, create a .env file:
+```
 
-env
-Copy
-Edit
+### Setup Environment
+
+In the project root, create a `.env` file:
+
+```env
 PORT=5000
 MONGO_URI=<your-mongodb-connection-string>
 JWT_SECRET=<your-jwt-secret>
-Run the App
+```
+
+### Run the App
+
 Install the dependencies and start the server:
 
-bash
-Copy
-Edit
+```bash
 npm install
 npm run dev
-Open http://localhost:5000 in your browser to explore the app.
+```
 
-📂 Directory Structure
-bash
-Copy
-Edit
+Then visit: [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 📂 Directory Structure
+
+```bash
 cozycorners/
 ├── models/       # Mongoose models (User, Listing, Review)
 ├── routes/       # Express routes
@@ -79,35 +78,40 @@ cozycorners/
 ├── public/       # Static files (CSS, client JS)
 ├── controllers/  # Route logic
 ├── middleware/   # Auth & validation middleware
-├── .env          # Environment variables
 └── server.js     # App entry point
-🚧 Future Enhancements
-🌐 Add image uploads (e.g., Cloudinary integration)
+```
 
-⚙️ Expand role-based access (admin panel)
+---
 
-💵 Implement payments or booking features
+## 🚧 Future Enhancements
 
-🔍 Enhance UI/UX with React components
+- 🌐 Add image uploads (e.g., Cloudinary integration)  
+- ⚙️ Expand role-based access (admin panel)  
+- 💵 Implement payments or booking features  
+- 🔍 Enhance UI/UX with React components  
 
-🤝 Contribute & Feedback
+---
+
+## 🤝 Contribute & Feedback
+
 Your feedback matters! To collaborate:
 
-Fork the repo
-
-Create a branch (feature/my-feature)
-
-Commit your changes
-
-Open a pull request
+- Fork the repo  
+- Create a branch (`feature/my-feature`)  
+- Commit your changes  
+- Open a pull request  
 
 Or simply raise an issue—your suggestions help me learn and grow.
 
-📬 Contact
-Saad Haji – Full-stack Developer
-📧 Email: hajisaad029@gmail.com
-🌐 LinkedIn: https://www.linkedin.com/in/saadhaji2007/
+---
 
-📝 License
-📄 This project is licensed under the MIT License (./LICENSE)
+## 📬 Contact
+  
+📧 Email: hajisaad029@gmail.com  
+🌐 LinkedIn: [https://www.linkedin.com/in/saadhaji2007/](https://www.linkedin.com/in/saadhaji2007/)
 
+---
+
+## 📝 License
+
+📄 This project is licensed under the [MIT License](./LICENSE).
